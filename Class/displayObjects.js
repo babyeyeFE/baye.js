@@ -1,4 +1,4 @@
-import createjs from 'createjs'
+import createjs from 'create-es6-js'
 
 export class Button extends createjs.Bitmap {
   constructor(img, callbackDown, callbackUp) {

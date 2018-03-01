@@ -1,3 +1,5 @@
+import createjs from 'createjs'
+
 export class Button extends createjs.Bitmap {
   constructor(img, callbackDown, callbackUp) {
     super(img)

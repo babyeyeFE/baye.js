@@ -1,3 +1,5 @@
+import createjs from 'createjs'
+
 export class ImageSTE {
   constructor(config) {
     if (config.colors.indexOf('r') === -1) {

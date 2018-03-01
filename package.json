@@ -1,6 +1,6 @@
 {
   "name": "baye",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "babyeye co front end team develop tool",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/babyeyeFE/baye.js/issues"
   },
-  "homepage": "https://github.com/babyeyeFE/baye.js#readme"
+  "homepage": "https://github.com/babyeyeFE/baye.js#readme",
+  "dependencies": {
+    "createjs": "^1.0.1"
+  }
 }

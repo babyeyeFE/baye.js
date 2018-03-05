@@ -1,4 +1,4 @@
-import 'createjs'
+import 'latest-createjs'
 
 import * as clazz from './class/'
 import * as utils from './utils'

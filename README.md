@@ -7,7 +7,7 @@ baye@1.1.1 版本所依赖的[CreateJS][1]为script引入
 ``` html
 <script src="<%= htmlWebpackPlugin.options.path %>static/libs/create.js"></script>
 ```
-baye@1.2.2 版本所依赖的[CreateJS][1]通过[CreateJS/Combined][2]引入
+baye@1.2.3 版本所依赖的[CreateJS][1]通过[Akimyou/latest-createjs][2]引入
 ```bash
 $ yarn add latest-createjs
 # or
@@ -15,9 +15,9 @@ $ npm install latest-createjs --save
 ```
 
 ```js
-import 'createjs'
+import 'latest-createjs'
 // or
-require('createjs')
+require('latest-createjs')
 
 // then
 console.log(createjs) // <- Global
@@ -116,4 +116,4 @@ npm:
 
 
 [1]: https://github.com/CreateJS
-[2]: https://github.com/CreateJS/Combined
+[2]: https://github.com/Akimyou/latest-createjs

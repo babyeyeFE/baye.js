@@ -1,5 +1,27 @@
+[![npm](https://img.shields.io/npm/v/latest-createjs.svg)](https://www.npmjs.com/package/latest-createjs)
+
 # 函数
 
+## 依赖
+baye@1.1.1 版本所依赖的[CreateJS][1]为script引入
+``` html
+<script src="<%= htmlWebpackPlugin.options.path %>static/libs/create.js"></script>
+```
+baye@1.2.2 版本所依赖的[CreateJS][1]通过[CreateJS/Combined][2]引入
+```bash
+$ yarn add latest-createjs
+# or
+$ npm install latest-createjs --save
+```
+
+```js
+import 'createjs'
+// or
+require('createjs')
+
+// then
+console.log(createjs) // <- Global
+```
 ## 数学函数
 
 ### *babyEye.randomRange(low,high)*
@@ -90,3 +112,8 @@
 ~~commonJS~~   
 npm:
 [开发更好用的 JavaScript 模块](https://zhuanlan.zhihu.com/p/31499310)
+
+
+
+[1]: https://github.com/CreateJS
+[2]: https://github.com/CreateJS/Combined

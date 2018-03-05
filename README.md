@@ -7,7 +7,7 @@ baye@1.1.1 版本所依赖的[CreateJS][1]为script引入
 ``` html
 <script src="<%= htmlWebpackPlugin.options.path %>static/libs/create.js"></script>
 ```
-baye@1.2.3 版本所依赖的[CreateJS][1]通过[Akimyou/latest-createjs][2]引入
+baye@1.2.4 版本所依赖的[CreateJS][1]通过[Akimyou/latest-createjs][2]引入
 ```bash
 $ yarn add latest-createjs
 # or

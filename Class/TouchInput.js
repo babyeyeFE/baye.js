@@ -51,15 +51,12 @@ export class TouchInput {
         this.innerCircle = this.directionContainer.getChildByName('direction-inner')
         this.outterCircle = this.directionContainer.getChildByName('direction-outter')
         this.innerCircle.addEventListener('pressmove',(ev)=>{
-            log(this.getDirection())
             let pt = this.innerCircle.localToLocal(ev.localX,ev.localY, this.directionContainer)
             this.innerCircle.set(pt)
         })
 
         this.innerCircle.addEventListener('pressup', (ev)=>{
             this.innerCircle.set({x:this.outterCircle.x,y:this.outterCircle.y})
-            log(this.getDirection())
-
         })
 
         this.buttonContainer.children.forEach((button)=>{

@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/babyeyeFE/baye.js#readme",
   "dependencies": {
-    "create-es6-js": "^0.1.10"
+    "latest-createjs": "^1.0.24"
   }
 }
